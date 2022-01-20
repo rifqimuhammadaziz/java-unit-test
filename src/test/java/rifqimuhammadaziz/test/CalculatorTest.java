@@ -5,6 +5,7 @@ import org.opentest4j.TestAbortedException;
 import rifqimuhammadaziz.test.generator.SimpleDisplayNameGenerator;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.*;
 
 @DisplayNameGeneration(SimpleDisplayNameGenerator.class)
 public class CalculatorTest {
@@ -75,5 +76,12 @@ public class CalculatorTest {
             // cancel test | to success, add env var in edit configuration
             throw new TestAbortedException("Test aborted because environment is not DEV!");
         }
+        // unit test
+    }
+
+    @Test
+    public void testAssumptions() {
+        assumeTrue("DEV".equals(System.getenv("PROFILE")));
+        // unit test for DEV
     }
 }
