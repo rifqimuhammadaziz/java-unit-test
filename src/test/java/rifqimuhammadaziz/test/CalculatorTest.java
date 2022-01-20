@@ -1,6 +1,7 @@
 package rifqimuhammadaziz.test;
 
 import org.junit.jupiter.api.*;
+import org.opentest4j.TestAbortedException;
 import rifqimuhammadaziz.test.generator.SimpleDisplayNameGenerator;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -67,4 +68,12 @@ public class CalculatorTest {
         // Disabled test
     }
 
+    @Test
+    public void testAborted() {
+        var profile = System.getenv("PROFILE");
+        if (!"DEV".equals(profile)) {
+            // cancel test | to success, add env var in edit configuration
+            throw new TestAbortedException("Test aborted because environment is not DEV!");
+        }
+    }
 }
