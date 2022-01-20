@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="rifqimuhammadaziz.test.CalculatorTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="rifqimuhammadaziz.test.CalculatorTest" time="0.039" tests="5" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire2502436259386503380\surefirebooter15815312438757581361.jar C:\Users\Lenovo\AppData\Local\Temp\surefire2502436259386503380 2022-01-20T09-13-22_686-jvmRun1 surefire17066152455815642197tmp surefire_0776844990520318616tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire7032682377009891179\surefirebooter9416215211270913856.jar C:\Users\Lenovo\AppData\Local\Temp\surefire7032682377009891179 2022-01-20T09-49-29_810-jvmRun1 surefire9912014755954088578tmp surefire_017213567654177845886tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Development\Java\java-unit-test\target\test-classes;D:\Development\Java\java-unit-test\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire2502436259386503380\surefirebooter15815312438757581361.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire7032682377009891179\surefirebooter9416215211270913856.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -56,5 +56,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testAddSuccess" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.017"/>
+  <testcase name="testDivideFailed" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.021"/>
+  <testcase name="testAddSuccess" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.001"/>
+  <testcase name="testAddFailed" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.001"/>
+  <testcase name="testComingSoon" classname="rifqimuhammadaziz.test.CalculatorTest" time="0">
+    <skipped message="public void rifqimuhammadaziz.test.CalculatorTest.testComingSoon() is @Disabled"/>
+  </testcase>
+  <testcase name="testDivideSuccess" classname="rifqimuhammadaziz.test.CalculatorTest" time="0"/>
 </testsuite>
