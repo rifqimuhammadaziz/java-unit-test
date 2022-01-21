@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: rifqimuhammadaziz.test.CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.039 s - in rifqimuhammadaziz.test.CalculatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.073 s - in rifqimuhammadaziz.test.CalculatorTest

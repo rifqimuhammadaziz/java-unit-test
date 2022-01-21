@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="rifqimuhammadaziz.test.CalculatorTest" time="0.073" tests="7" errors="0" skipped="3" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="rifqimuhammadaziz.test.ConditionTest" time="0.027" tests="11" errors="0" skipped="5" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -56,28 +56,25 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testAborted" classname="rifqimuhammadaziz.test.CalculatorTest" time="0">
-    <skipped message="Test aborted because environment is not DEV!" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Test aborted because environment is not DEV!
-	at rifqimuhammadaziz.test.CalculatorTest.testAborted(CalculatorTest.java:77)
-</skipped>
-    <system-out><![CDATA[Before All
-Before each
-After each
-]]></system-out>
+  <testcase name="testRunOnlyOnWindows" classname="rifqimuhammadaziz.test.ConditionTest" time="0.002"/>
+  <testcase name="testEnabledOnJava12To15" classname="rifqimuhammadaziz.test.ConditionTest" time="0"/>
+  <testcase name="testDisabledOnJavaVendorOracle" classname="rifqimuhammadaziz.test.ConditionTest" time="0">
+    <skipped message="System property [java.vendor] with value [Oracle Corporation] matches regular expression [Oracle Corporation]"/>
   </testcase>
-  <testcase name="testDivideFailed" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.003"/>
-  <testcase name="testAddSuccess" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.002"/>
-  <testcase name="testAddFailed" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.005"/>
-  <testcase name="testComingSoon" classname="rifqimuhammadaziz.test.CalculatorTest" time="0">
-    <skipped message="public void rifqimuhammadaziz.test.CalculatorTest.testComingSoon() is @Disabled"/>
+  <testcase name="testEnabledOnProfileDev" classname="rifqimuhammadaziz.test.ConditionTest" time="0">
+    <skipped message="Environment variable [PROFILE] does not exist"/>
   </testcase>
-  <testcase name="testAssumptions" classname="rifqimuhammadaziz.test.CalculatorTest" time="0">
-    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at rifqimuhammadaziz.test.CalculatorTest.testAssumptions(CalculatorTest.java:84)
-</skipped>
-    <system-out><![CDATA[Before each
-After each
-]]></system-out>
+  <testcase name="testDisabledOnJava8" classname="rifqimuhammadaziz.test.ConditionTest" time="0"/>
+  <testcase name="testSystemProperty" classname="rifqimuhammadaziz.test.ConditionTest" time="0.022"/>
+  <testcase name="testNotRunOnWindows" classname="rifqimuhammadaziz.test.ConditionTest" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
   </testcase>
-  <testcase name="testDivideSuccess" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.002"/>
+  <testcase name="testEnabledOnJavaVendorOracle" classname="rifqimuhammadaziz.test.ConditionTest" time="0"/>
+  <testcase name="testDisabledOnJava12To15" classname="rifqimuhammadaziz.test.ConditionTest" time="0">
+    <skipped message="Disabled on JRE version: 15.0.1"/>
+  </testcase>
+  <testcase name="testEnabledOnJava8" classname="rifqimuhammadaziz.test.ConditionTest" time="0">
+    <skipped message="Disabled on JRE version: 15.0.1"/>
+  </testcase>
+  <testcase name="testDisabledOnProfileDev" classname="rifqimuhammadaziz.test.ConditionTest" time="0"/>
 </testsuite>
