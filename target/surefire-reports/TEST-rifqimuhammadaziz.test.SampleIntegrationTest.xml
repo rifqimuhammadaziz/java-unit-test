@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="rifqimuhammadaziz.test.SampleIntegrationTest" time="0.033" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="rifqimuhammadaziz.test.SampleIntegrationTest" time="0.037" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire18261993757783236242\surefirebooter10284542306710329235.jar C:\Users\Lenovo\AppData\Local\Temp\surefire18261993757783236242 2022-01-21T18-40-26_818-jvmRun1 surefire12515681465713701815tmp surefire_013263795526551847071tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire12157722352467329179\surefirebooter3805846036657294658.jar C:\Users\Lenovo\AppData\Local\Temp\surefire12157722352467329179 2022-01-22T12-13-01_530-jvmRun1 surefire5913070069855897678tmp surefire_01816980034568909264tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Development\Java\java-unit-test\target\test-classes;D:\Development\Java\java-unit-test\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire18261993757783236242\surefirebooter10284542306710329235.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire12157722352467329179\surefirebooter3805846036657294658.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -57,6 +57,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testIntegration1" classname="rifqimuhammadaziz.test.SampleIntegrationTest" time="0.025"/>
-  <testcase name="testIntegration2" classname="rifqimuhammadaziz.test.SampleIntegrationTest" time="0.001"/>
+  <testcase name="testIntegration1" classname="rifqimuhammadaziz.test.SampleIntegrationTest" time="0.028"/>
+  <testcase name="testIntegration2" classname="rifqimuhammadaziz.test.SampleIntegrationTest" time="0"/>
 </testsuite>
