@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class PerformanceTest {
     /**
      * Timeout
-     * The test is failed when executed beyond the timeout
+     * The test is failed when executed exceeds the timeout
      */
     @Test
     @Timeout(value = 5, unit = TimeUnit.SECONDS) // test is failed if exceeds 5 second
