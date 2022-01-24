@@ -14,6 +14,6 @@ public class AbstractCalculatorTest {
 
     @BeforeEach
     void setUp() {
-        System.out.println("Before each");
+        System.out.println("Before each from AbstractCalculator");
     }
 }
