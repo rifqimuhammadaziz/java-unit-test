@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="rifqimuhammadaziz.test.CalculatorTest" time="0.073" tests="7" errors="0" skipped="3" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="rifqimuhammadaziz.test.CalculatorTest" time="0.047" tests="7" errors="0" skipped="3" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\Development\Java\java-unit-test\target\test-classes;D:\Development\Java\java-unit-test\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.class.path" value="D:\Development\Java\java-unit-test\target\test-classes;D:\Development\Java\java-unit-test\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\mockito\mockito-junit-jupiter\4.2.0\mockito-junit-jupiter-4.2.0.jar;C:\Users\Lenovo\.m2\repository\org\mockito\mockito-core\4.2.0\mockito-core-4.2.0.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.12.4\byte-buddy-1.12.4.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.4\byte-buddy-agent-1.12.4.jar;C:\Users\Lenovo\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire379424481725308322\surefirebooter10753543469308485863.jar C:\Users\Lenovo\AppData\Local\Temp\surefire379424481725308322 2022-01-21T18-39-57_328-jvmRun1 surefire12048904708850470654tmp surefire_08900514902474398259tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire4882958055806569551\surefirebooter446409747389357064.jar C:\Users\Lenovo\AppData\Local\Temp\surefire4882958055806569551 2022-01-26T13-14-47_614-jvmRun1 surefire6913405552285008445tmp surefire_017626820332521179693tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\Development\Java\java-unit-test\target\test-classes;D:\Development\Java\java-unit-test\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="surefire.test.class.path" value="D:\Development\Java\java-unit-test\target\test-classes;D:\Development\Java\java-unit-test\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Lenovo\.m2\repository\org\mockito\mockito-junit-jupiter\4.2.0\mockito-junit-jupiter-4.2.0.jar;C:\Users\Lenovo\.m2\repository\org\mockito\mockito-core\4.2.0\mockito-core-4.2.0.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.12.4\byte-buddy-1.12.4.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.4\byte-buddy-agent-1.12.4.jar;C:\Users\Lenovo\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Lenovo"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire379424481725308322\surefirebooter10753543469308485863.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire4882958055806569551\surefirebooter446409747389357064.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -65,9 +65,9 @@ Before each
 After each
 ]]></system-out>
   </testcase>
-  <testcase name="testDivideFailed" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.003"/>
+  <testcase name="testDivideFailed" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.005"/>
   <testcase name="testAddSuccess" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.002"/>
-  <testcase name="testAddFailed" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.005"/>
+  <testcase name="testAddFailed" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.002"/>
   <testcase name="testComingSoon" classname="rifqimuhammadaziz.test.CalculatorTest" time="0">
     <skipped message="public void rifqimuhammadaziz.test.CalculatorTest.testComingSoon() is @Disabled"/>
   </testcase>
@@ -79,5 +79,5 @@ After each
 After each
 ]]></system-out>
   </testcase>
-  <testcase name="testDivideSuccess" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.002"/>
+  <testcase name="testDivideSuccess" classname="rifqimuhammadaziz.test.CalculatorTest" time="0.001"/>
 </testsuite>
